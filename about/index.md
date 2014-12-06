@@ -1,7 +1,6 @@
 ---
-layout: default
-title: About
-permalink: /about/
+layout: page
+title: About Troop 570
 ---
 Lorem ipsum dolor sit amet, eleifend imperdiet orci. Dapibus nostra nunc
 ultricies eget, dolor mauris. Faucibus lacus etiam est consectetuer morbi
