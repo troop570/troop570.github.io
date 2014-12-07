@@ -1,7 +1,8 @@
 # Site settings
 title: Troop 570
 email: your-email@domain.com
-description: > # this means to ignore newlines until "markdown:"
-  Boy Scout Troop 570, Kirkland, WA
+description: > # this means to ignore newlines until "baseurl:"
+  Boy Scout Troop 570 is located in Kirkland, Washington and believes in personal development and
+  keeps the "Outings in Scouting."
 # Build settings
 markdown: kramdown
