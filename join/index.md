@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Join Troop 570
+description: Information about joining Troop 570 in Kirkland, WA.
 ---
 #### Visit Us
 
