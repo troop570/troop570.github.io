@@ -6,6 +6,7 @@
     max-width: 970px;
   }
 }
+
 .navbar-inverse {
   background-color: hsl(134, 28%, 25%);
 }
@@ -17,22 +18,26 @@
 .navbar-inverse .navbar-brand {
   color: white;
 }
+
 a {
   color: hsl(134, 28%, 40%);
 }
 a:hover {
   color: hsl(134, 28%, 22%);
 }
+
 .topbox {
   margin-top: -20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 body {
-  background-color:#F2E4D6;
+  background-color: rgb(250, 246, 238);
+  padding-bottom: 20px;
 }
+
 .Georgia {
   font-family: Georgia, serif;
 }
