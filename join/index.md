@@ -4,6 +4,10 @@ title: Join Troop 570
 description: Information about joining Troop 570 in Kirkland, WA.
 #jumbotron: /join/jumbotron.html
 ---
+Boy Scout Troop 570 invites you to be come a member of our Troop. As a member
+of our Troop you will enjoy new experiences, make new friends and have fun.
+You will also learn new skills while advancing in rank.
+
 #### Visit Us
 
 The best way to learn about Troop 570 is to visit us at one of our troop
@@ -16,9 +20,10 @@ visit.
 
 #### Meetings
 
-We meet at 7 PM on Monday evenings at the Holy Spirit Lutheran Church
-([map](http://goo.gl/OGwdzP)). Troop meetings are usually the 1st, 2nd and 3rd
-Mondays of each month with a boy leadership meeting on the 4th Monday.
+We meet at 7 PM on Monday evenings at the Holy Spirit Lutheran Church in Kirkland
+([map](https://www.google.com/maps/place/10021+NE+124th+St,+Kirkland,+WA+98034/@47.7107034,-122.2067723,17z/data=!3m1!4b1!4m2!3m1!1s0x549012702c70fbbf:0x9359246b1ebce8dc)).
+Troop meetings are usually the 1st, 2nd and 3rd Mondays of each month with a
+boy leadership meeting on the 4th Monday.
 
 We have a monthly parent meeting on the second Monday of every month.
 
