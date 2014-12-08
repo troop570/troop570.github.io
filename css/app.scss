@@ -1,29 +1,38 @@
 ---
 ---
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 970px;
-  }
+$backgroundColor: hsl(40, 55%, 97%);
+$navbarBackgroundColor: hsl(134, 28%, 25%);
+$anchorColor: hsl(134, 28%, 40%);
+$anchorHoverColor: hsl(134, 28%, 22%);
+
+// Limit width for comfortable reading of full width text. The BS defaults
+// don't work for us because we do not have sidebars.
+.container {
+    max-width: 750px;
 }
 
 .navbar-inverse {
-  background-color: hsl(134, 28%, 25%);
+  background-color: $navbarBackgroundColor;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: hsl(134, 28%, 29%);
+  background-color: lighten($navbarBackgroundColor, 5);
 }
 .navbar-inverse .navbar-brand {
   color: white;
 }
 
+.btn-default {
+    background-color: lighten($backgroundColor, 2);
+}
+
 a {
-  color: hsl(134, 28%, 40%);
+  color: $anchorColor;
 }
 a:hover {
-  color: hsl(134, 28%, 22%);
+  color: $anchorHoverColor;
 }
 
 .topbox {
@@ -34,7 +43,8 @@ a:hover {
 }
 
 body {
-  background-color: rgb(250, 246, 238);
+  background-color: $backgroundColor;
+  color: black; // black is easier to read on tan background.
   padding-bottom: 20px;
 }
 
