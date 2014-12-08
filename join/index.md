@@ -2,6 +2,7 @@
 layout: page
 title: Join Troop 570
 description: Information about joining Troop 570 in Kirkland, WA.
+jumbotron: /join/jumbotron.html
 ---
 #### Visit Us
 
@@ -23,16 +24,16 @@ encouraged to attend.
 
 #### Outdoor Program
 
-The saying goes “three quarters of Scouting is outing”, and the Troop schedules
+The saying goes that “three quarters of Scouting is outing”, and the Troop schedules
 at least one outing per month year around. We hike, car camp, backpack,
 snowshoe, and attend District events with other troops like Camporee, Merit
 Badge Weekend and Klondike. These outings will be some of the best times you
 will ever have. 
 
-#### Boy Run
+#### Scout Run
 
-Troop 570 prides itself in being a boy run troop. Our outings and weekly
-meetings are planned and conducted by the boys.
+Troop 570 prides itself in being a Scout run troop. Our outings and weekly
+meetings are planned and conducted by the scouts.
 
 #### Who can join
 
