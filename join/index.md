@@ -6,29 +6,30 @@ jumbotron: /join/jumbotron.html
 ---
 #### Visit Us
 
-One of the best ways to learn about Troop 570 is to visit us at one of our
-troop meetings. You'll get to join a patrol for the evening, learn about how
-our meetings work, and play games with us. Contact our troop committee
+The best way to learn about Troop 570 is to visit us at one of our troop
+meetings. Visiting boys can join a patrol for evening, learn about how our
+meetings work, and play games with us. Visiting parents can meet with an adult
+leader to ask questions about our troop. Contact our troop committee
 chairperson Paul Schindler
 ([paschind@outlook.com](mailto:paschind@outlook.com)) to arrange a date to
 visit.
- 
+
 #### Meetings
 
-We meet at 7PM on Monday evenings at the Holy Spirit Lutheran Church
+We meet at 7 PM on Monday evenings at the Holy Spirit Lutheran Church
 ([map](http://goo.gl/OGwdzP)). Troop meetings are usually the 1st, 2nd and 3rd
 Mondays of each month with a boy leadership meeting on the 4th Monday.
 
-We have a monthly parent meeting on the 2nd Monday of every month. Parents are
-encouraged to attend.
+We have a monthly parent meeting on the second Monday of every month.
 
 #### Outdoor Program
 
-The saying goes that “three quarters of Scouting is outing”, and the Troop schedules
-at least one outing per month year around. We hike, car camp, backpack,
-snowshoe, and attend District events with other troops like Camporee, Merit
-Badge Weekend and Klondike. These outings will be some of the best times you
-will ever have. 
+The saying goes that “three quarters of Scouting is outing”, and the Troop
+schedules at least one outing per month year around. We hike, car camp,
+backpack, snowshoe, and attend District events with other troops like Camporee,
+Merit Badge Weekend and Klondike. In the summer, we go to summer camp for a
+week and on one or more multi-day high-adventure trips. These outings will be
+some of the best times you will ever have.
 
 #### Scout Run
 
