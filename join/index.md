@@ -34,12 +34,15 @@ schedules at least one outing per month year around. We hike, car camp,
 backpack, snowshoe, and attend District events with other troops like Camporee,
 Merit Badge Weekend and Klondike. In the summer, we go to summer camp for a
 week and on one or more multi-day high-adventure trips. These outings will be
-some of the best times you will ever have.
+some of the best times you will ever have. 
 
-#### Scout Run
+We [went on many fun outings in 2014](/outings/) and have more planned for
+2015.
 
-Troop 570 prides itself in being a Scout run troop. Our outings and weekly
-meetings are planned and conducted by the scouts.
+#### Boy Run
+
+Troop 570 prides itself in being a boy run troop. Our outings and weekly
+meetings are planned and conducted by the boys.
 
 #### Who can join
 
