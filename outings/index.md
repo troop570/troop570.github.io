@@ -16,7 +16,7 @@ A list of past outings and events.
 - Lock-in at Mountlake Terrace -  All-nighter at a local pool.
 - Centennial Trail Bike Ride - 25 mile day trip.
 - Cougar Mountain Day Hike.
-- New Scout Camp - A 'welcome' campout for new scouts and their parents, two nights.
+- New Scout Camp - A 'welcome' campout for new scouts and their parents, two nights camping.
 - Duthie Hill Bike Ride - Riding at local mountain bike park.
 - Merit Badge Weekend Camp - Scouts work on merit badges and other rank advancement, two nights camping.
 - Rattlesnake Mountain Day Hike.
@@ -33,10 +33,10 @@ A list of past outings and events.
 - Hawaii - Backpacking, zip lining, snorkeling and more on Kauai.
 - Eagle Service Project - Build Mason Bee houses.
 - Greenwater Lakes Backpacking - Six miles, one night.
-- Survivor Camporee - Two nights at the Pacific Harbors Council Camporee.
+- Survivor Camporee - Large camporee in the Pacific Harbors Council, two nights camping.
 - Eagle Service Project - Build a trail in a state park, two nights camping.
 - Eagle Service Project - Build benches at a local school.
-- Canoe Skills Outing - An afternoon on the water.
+- Canoe Skills Outing - An afternoon on the Sammamish Slough.
 - Corn Maze Outing - An evening at a local corn maze.
 - Merit Badge Weekend - The second merit badge weekend of the year, two nights camping.
 - Webelos Outreach Camp - Host Webelos at Camp Pigott, two nights camping.

@@ -11,12 +11,12 @@ You will also learn new skills while advancing in rank.
 #### Visit Us
 
 The best way to learn about Troop 570 is to visit us at one of our troop
-meetings. Visiting boys can join a patrol for evening, learn about how our
+meetings. Visiting boys can join a patrol for the evening, learn about how our
 meetings work, and play games with us. Visiting parents can meet with an adult
 leader to ask questions about our troop. Contact our troop committee
-chairperson Paul Schindler
-([paschind@outlook.com](mailto:paschind@outlook.com)) to arrange a date to
-visit.
+chairperson Paul Schindler at
+[paschind@outlook.com](mailto:paschind@outlook.com?subject=Request+To+Visit+Troop+Meeting)
+to arrange a date to visit.
 
 #### Meetings
 
@@ -46,10 +46,9 @@ meetings are planned and conducted by the boys.
 
 #### Who can join
 
-Boy Scouts is available to boys from age 11 through age 17. Boys who have
-earned the Arrow of Light Award (in Cub Scouts) and are at least 10 years old
-and boys who have completed the fifth grade and are at least 10 can also join
-Boy Scouts.
+A boy must meet the Boy Scouts of America age requirement: Be a boy who is 11
+years old, or one who has completed the fifth grade or earned the Arrow of
+Light Award and is at least 10 years old, but is not yet 18 years old.
 
 Boys can join Troop 570 any time during the year. No previous scouting
 experience is required.
