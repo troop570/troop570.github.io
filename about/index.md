@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About Troop 570
-description: Information about joining Troop 570 in Kirkland, WA.
-#jumbotron: /join/jumbotron.html
+description: About Troop 570 in Kirkland, WA.
 ---
 Boy Scout Troop 570 invites you to be come a member of our Troop. As a member
 of our Troop you will enjoy new experiences, make new friends and have fun.
