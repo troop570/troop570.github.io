@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Join Troop 570
+title: About Troop 570
 description: Information about joining Troop 570 in Kirkland, WA.
 #jumbotron: /join/jumbotron.html
 ---
