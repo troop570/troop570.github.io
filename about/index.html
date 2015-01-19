@@ -1,0 +1,23 @@
+---
+layout: page
+title: About Troop 570
+---
+
+<div class="col-sm-offset-2 col-sm-8">
+  <p class="larger text-center">Boy Scout Troop 570 invites you to come join our Troop.
+    As a member of our Troop you will enjoy new experiences, make new friends and have fun.
+    You will also learn new skills while advancing in rank.</p>
+</div>
+{% for item in site.aboutItems %}
+<div class="col-sm-12 about-item mouseover-item">
+  <div class="col-sm-3 text-center">
+    <div class="image-fade-parent">
+      <img src="{{ item.image }}" alt="{{ item.image-alt }}"/>
+      <img class="fade" src="{{ item.fade-image }}" alt="{{ item.image-alt }}"/>
+    </div>
+  </div>
+  <div class="col-sm-9 item-content">
+    {{item.content}}
+  </div>
+</div>
+{% endfor %}

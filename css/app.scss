@@ -2,26 +2,52 @@
 ---
 
 $backgroundColor: hsl(40, 55%, 97%);
-$navbarBackgroundColor: hsl(134, 28%, 25%);
+$navbarBackgroundColor: rgba(0, 0, 0, 0.5);
 $anchorColor: hsl(134, 28%, 40%);
 $anchorHoverColor: hsl(134, 28%, 22%);
 
 // Limit width for comfortable reading of full width text. The BS defaults
 // don't work for us because we do not have sidebars.
 .container {
-    max-width: 750px;
+//    max-width: 1200px;
 }
 
+.navigation-wrapper {
+  top: 2em;
+  left: 2em;
+  right: 2em;
+  .container {
+    width: auto;
+  }
+}
+
+.default-template .navigation-wrapper {
+  position:absolute;
+  top: 1em;
+  left: 2em;
+  right: 2em;
+  .navbar-inverse {
+    border-radius: .5em;
+  }
+}
+
+.navbar {
+  margin: 0;
+  .navbar-brand {
+    color: white;
+    font-size: 24px;
+  }
+  a {
+    font-size:18px;
+  }
+}
 .navbar-inverse {
   background-color: $navbarBackgroundColor;
-}
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: lighten($navbarBackgroundColor, 5);
-}
-.navbar-inverse .navbar-brand {
-  color: white;
+  .active a,
+  .active a:hover,
+  .active a:focus {
+    background-color: lighten($navbarBackgroundColor, 5);
+  }
 }
 
 .btn-default {
@@ -36,18 +62,28 @@ a:hover {
 }
 
 .topbox {
-  margin-top: -20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: white;
+  background-color: #333333;
+  &.shrink-on-scroll .carousel-inner {
+    transition: height .5s;
+    &.shorter{
+      height:240px;
+    }
+  }
 }
+
 
 body {
   background-color: $backgroundColor;
   color: black; // black is easier to read on tan background.
   padding-bottom: 20px;
+  font-family: Georgia, serif;
 }
 
+.page-template {
+  h1 {
+    text-align: center;
+  }
+}
 .Georgia {
   font-family: Georgia, serif;
 }
@@ -56,6 +92,10 @@ body {
   h2 {
     font-size: 3.5em;
   }
+}
+.larger {
+  margin:2em 1em;
+  font-size:1.5em;
 }
 
 #coverage-map {
@@ -68,4 +108,33 @@ body {
   margin:2em 0;
   background-color:white;
   border-radius:1em;
+}
+
+.about-item {
+  margin:0 0 1.5em 0;
+  .image-fade-parent {
+    position:relative;
+    width:150px;
+    height:150px;
+    display: inline-block;
+    .fade {
+      position:absolute;
+      left:0;
+      top:0;
+    }
+  }
+  .item-content {
+    line-height: 1.5em;
+  }
+
+}
+
+.footer {
+  margin-top: 4em;
+  .charter-org {
+    font-size:18px;
+  }
+  .copyright {
+    font-size:12px;
+  }
 }

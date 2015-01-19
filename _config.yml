@@ -2,3 +2,6 @@
 title: Troop 570
 # Build settings
 markdown: kramdown
+
+collections:
+  - aboutItems

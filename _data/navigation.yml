@@ -1,8 +1,8 @@
-- title: Home
+- title: home
   url: /
-- title: Trees
-  url: /trees/
-- title: About
+- title: about
   url: /about/
-- title: Contact
+- title: contact
   url: /contact/
+- title: trees
+  url: /trees/

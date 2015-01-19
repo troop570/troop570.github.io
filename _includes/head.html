@@ -5,12 +5,59 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% if page.description %}<meta name="description" content="{{ page.description | xml_escape }}">{% endif %}
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="/css/app.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript">
     $(function() {
-      $('[data-toggle="tooltip"]').tooltip();
+
+      var carouselImageWidth = 1600, // width of carousel images
+          carouselImageHeight = 760, // height of carousel images
+          shortCarouselHeight = 240; // height of carousel when page is scrolled down
+
+      // sets the height of .carousel-inner of the Bootstrap carousel
+      function setCarouselInnerHeight() {
+        var $ci = $('.carousel-inner'),
+          ciWidth = $ci.width(),
+          ciHeight = $ci.height(),
+          ciHeightAdjusted = Math.floor(carouselImageHeight / carouselImageWidth * ciWidth);
+        if (window.scrollY > 10) {
+          if (ciHeight > shortCarouselHeight) {
+            $ci.css('height', shortCarouselHeight + 'px');
+          }
+        } else {
+          $ci.css('height', ciHeightAdjusted + 'px');
+        }
+      }
+
+      // catches scroll events
+      $(window).on('scroll', function(evt) {
+        if ($('.shrink-on-scroll .carousel-inner').length) {
+          setCarouselInnerHeight();
+        }
+      });
+
+      // catches resize events
+      $(window).on('resize', function(evt) {
+        if ($('.shrink-on-scroll .carousel-inner').length) {
+          setCarouselInnerHeight();
+        }
+      });
+
+      // if opacity is supported
+      if ($('html').hasClass('opacity')) {
+        $('.mouseover-item')
+          .on('mouseenter', function(evt) {
+            $(this).find('.image-fade-parent .fade').addClass('in');
+          })
+          .on('mouseleave', function(evt) {
+            $(this).find('.image-fade-parent .fade').removeClass('in');
+          });
+      } else {
+        $('.image-fade-parent .fade').addClass('collapse');
+      }
     });
   </script>
 </head>
