@@ -25,6 +25,7 @@
           ciHeightAdjusted = Math.floor(carouselImageHeight / carouselImageWidth * ciWidth);
         if (window.scrollY > 10) {
           if (ciHeight > shortCarouselHeight) {
+            $('.footer').css('margin-bottom', (carouselImageHeight - shortCarouselHeight) + 'px');
             $ci.css('height', shortCarouselHeight + 'px');
           }
         } else {
