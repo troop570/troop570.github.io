@@ -1,0 +1,179 @@
+---
+layout: page
+title: Countdown to Eagle Scout
+ageList:
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+scoutRanks:
+- label: Scout
+- label: Tenderfoot
+- label: Second Class
+- label: First Class
+- label: Star
+- label: Life
+eagleAgeList:
+- 18
+- 17
+- 16
+- 15
+- 14
+- 13
+eagleRequiredMB:
+- label: Camping
+  id: camping
+- label: Cooking
+  id: cooking
+- label: Cyling, Hiking or Swimming
+  id: cycling
+- label: Citizenship in the Community
+  id: community
+- label: Citizenship in the Nation
+  id: nation
+- label: Citizenship in the World
+  id: world
+- label: Communications
+  id: communications
+- label: Lifesaving or Emergency Preparedness
+  id: lifesaving
+- label: Environmental Science or Sustainability
+  id: environmental
+- label: Family Life
+  id: family
+- label: First Aid
+  id: first
+- label: Personal Fitness
+  id: personal
+- label: Personal Management
+  id: mgmt
+activities:
+- text: Get a job (for college)
+  id: jobHeavy
+  years: 2
+- text: Get a job (for spending)
+  id: jobLight
+  years: .5
+- text: Buy a car
+  id: drive
+  years: 1
+- text: Participate in sports (daily practice)
+  id: sportsHeavy
+  years: 2
+- text: Participate in sports (weekly practice)
+  id: sportsLight
+  years: .5
+- text: Dating
+  id: dating
+  years: .5
+- text: Social activities
+  id: social
+  years: 1
+- text: Other clubs and organization
+  id: clubs
+  years: 1
+---
+<div class="col-sm-offset-2 col-sm-8">
+  <p class="larger text-center">If your goal is to achieve the rank of Eagle Scout, you might be surprised how much you have to do every year to earn the rank of Eagle scout. </p>
+</div>
+<form id="eagleCountdownForm">
+  <div class="col-sm-6">
+
+    <h3>Today</h3>
+    <div class="form-group">
+      <label for="age">Current Age: </label>
+      <select name="age" id="age">
+        {% for age in page.ageList %}
+          <option value="{{age}}">{{age}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="rank">Current Rank: </label>
+      <select name="rank" id="rank">
+        {% for rank in page.scoutRanks %}
+          <option value="{{rank.label}}">{{rank.label}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Eagle Required Merit Badges earned</label> &nbsp;<span id="eagle-mb-count">0</span>
+      <br/>
+      {% for mb in page.eagleRequiredMB %}
+      <input class="eagle-mb-checkbox" id="{{mb.id}}" type="checkbox" value="{{mb.label}}"/> &nbsp;
+      <label for="{{mb.id}}">{{mb.label}}</label>
+      <br/>
+      {% endfor %}
+    </div>
+    <div class="form-group">
+      <label for="electiveMB">Elective Merit Badges earned</label>
+      <input type="number" id="electiveMB" name="electiveMB" value="0" min="0" max="26"/>
+
+
+    </div>
+    <button class="btn btn-primary" type="submit">Show me</button>
+
+    <div class="needed-results collapse">
+      <h3>Results</h3>
+      <ul>
+        <li><span id="eagle-required-mb-needed"></span> Eagle Required Merit Badges needed (<span id="eagle-required-mb-needed-annually"></span> merit badges per year)</li>
+        <li><span id="elective-mb-needed"></span> Eagle Required Merit Badges needed (<span id="elective-mb-needed-annually"></span> merit badges per year)</li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="col-sm-6">
+    <h3>Target Age to Achieve Eagle Rank</h3>
+    <select name="eagleAge" id="eagleAge">
+      {% for age in page.eagleAgeList %}
+      <option value="{{age}}">{{age}}</option>
+      {% endfor %}
+    </select>
+    <h3>Future Plans</h3>
+    {% for activity in page.activities %}
+      <div class="form-group">
+        <input class="activity" type="checkbox" value="{{activity.id}}" id="{{activity.id}}"/>&nbsp;<label for="{{activity.id}}">{{activity.text}}</label>
+      </div>
+    {% endfor %}
+
+  </div>
+</form>
+<script type="text/javascript" src="/js/eagle-countdown.js"></script>
+<script>
+  $('form').submit(function(evt) {
+    var data = {
+      currentRank: $('#rank').val(),
+      currentAge: parseInt($('#age').val(), 10),
+      eagleRequiredMbCount: $('.eagle-mb-checkbox:checked').length,
+      electiveMbCount: parseInt($('#electiveMB').val(), 10),
+      eagleAge: parseInt($('#eagleAge').val(), 10)
+    },
+      timeLeft = Math.max(1, data.eagleAge - data.currentAge);
+    eagleCountdown.submitForm(evt, data);
+    if (data.needs) {
+      if (data.needs.eagleRequiredMbCount !== undefined) {
+        $('#eagle-required-mb-needed').text(data.needs.eagleRequiredMbCount);
+        $('#eagle-required-mb-needed-annually').text(Math.round(data.needs.eagleRequiredMbCount / timeLeft * 100) / 100);
+      }
+      if (data.needs.electiveMbCount !== undefined) {
+        $('#elective-mb-needed').text(data.needs.electiveMbCount);
+        if (data.needs.electiveMbCount !== 0) {
+          $('#elective-mb-needed-annually').text(Math.round(data.needs.electiveMbCount / timeLeft * 100) / 100);
+        } else {
+          $('#elective-mb-needed-annually')
+        }
+      }
+      $('.needed-results').removeClass('collapse');
+    }
+  });
+  $('input.activity').on('click', function(evt) {
+    $('input.activity:checked');
+  });
+  $('.eagle-mb-checkbox').on('click', function(evt) {
+    $('#eagle-mb-count').text($('input.eagle-mb-checkbox:checked').length);
+  });
+</script>
+
