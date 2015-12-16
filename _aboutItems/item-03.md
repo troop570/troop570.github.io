@@ -1,6 +1,6 @@
 ---
 title: Visit Us
-image: /images/about-items/canoeing.png
+image: /images/about-items/canoeing2.png
 fade-image: /images/merit-badges/canoeing.png
 image-alt: canoeing
 ---
