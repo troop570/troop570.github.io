@@ -2,21 +2,38 @@
 layout: page
 title: Christmas Tree Pickup and Recycling
 description: Details on Troop 570's Christmas tree pickup and recycling event.
+slides:
+- image: /images/trees/slides/0317-9787.jpg
+  title: The early morning crew waiting for trees to arrive
+- image: /images/trees/slides/0317-9816.jpg
+  title: The afternoon crew staying warm
+- image: /images/trees/slides/0317-9859.jpg
+  title: That's a lot of trees, with more to come
+- image: /images/trees/slides/0318-9888.jpg
+  title: Scouts powered by enthusiasm, spirit and sugar
+- image: /images/trees/slides/IMG_2813.jpg
+  title: More trees...
+- image: /images/trees/slides/IMG_2827.jpg
+  title: The Tree lot crew
+- image: /images/trees/slides/0318-9896.jpg
+  title: The trees were shredded for future use in Kirkland parks as ground cover
+- image: /images/trees/slides/IMG_2835.jpg
+  title: We hope to see you next year.
+
 ---
+  <p>Our 2017 Christmas Tree Pickup and Recycling Community Service event was a success. Thank you to all who donated to our troop. </p>
+  <p>All trees collected during this service project is chipped and reused as mulch to maintain Kirkland Parks. This mulch is preferred over commercial mulches simply because it's cleaner.</p>
+  <div class="option-box text-center">
+    <p>We are still accepting donations. Please make checks payable to "BSA Troop 570". You can mail donations to:</p>
+
+    <address>
+      Troop 570<br>
+      10021 NE 124th<br>
+      Kirkland, WA 98034
+    </address>
+  </div>
+
   {% comment %}
-  <p>Our 2017 Christmas Tree Pickup and Recycling Community Service event was a success. </p>
-  <p>We are still accepting donations. You can mail donations to:</p>
-
-  <address>
-    Troop 570,<br>
-    10021 NE 124th<br>
-    Kirkland, WA 98034
-  </address>
-
-  <p>Make checks payable to "BSA Troop 570".</p>
-  <p>Thank you to all who donated to our troop. All donations sent in will be used by our troop to support activities in accordance with the Boy Scout Mission statement. The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the <a href="http://www.scouting.org/scoutsource/Media/mission.aspx">Boy Scout Oath and Law</a>.</p>
-  {% endcomment %}
-
   <p>Boy Scout Troop 570 will do curbside pickup of your natural Christmas trees <b>within our service area in Kirkland, Washington (map shown below).</b></p>
   <div class="row option-box">
     <div class="col-sm-6">
@@ -61,4 +78,35 @@ description: Details on Troop 570's Christmas tree pickup and recycling event.
       </p>
     </div>
   </div>
+  {% endcomment %}
 
+  <p>All donations sent in will be used by our troop to support activities in accordance with the <a href="http://www.scouting.org/scoutsource/Media/mission.aspx">Boy Scout Mission statement</a>. The mission of the Boy Scouts of America is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Boy Scout Oath and Law.</p>
+
+  <div id="slide-carousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      {% for slide in page.slides %}
+      <li data-target="#slide-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+      {% endfor %}
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      {% for slide in page.slides %}
+      <div class="item{% if forloop.first %} active{% endif %}">
+        <img src="{{ slide.image }}">
+        <div class="carousel-caption">
+          {{ slide.title }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#slide-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#slide-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
