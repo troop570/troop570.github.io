@@ -4,9 +4,7 @@ title: Troop 570 Outings
 description: A list of recent Troop 570 outinghs
 ---
 
-A list of past outings and events.
-
-#### 2014
+A list of outings from a recent year:
 
 - Christmas Tree Service Project - Collect Christmas trees for recycling.
 - Snowshoeing Camp - Snowshoeing, sledding, two nights of winter camping.
