@@ -6,15 +6,9 @@ image-alt: canoeing
 ---
 #### Outdoor Program
 
-The saying goes that &ldquo;three quarters of Scouting is outing,&rdquo; and the Troop
-schedules at least one outing per month year around. We hike, car camp,
-backpack, snowshoe, and attend events with other troops in the
-[Sammamish Trail District](http://www.seattlebsa.org/Sammamish-Trails){:target="_blank"},
-events like Camporee, Merit Badge Weekend and Klondike.
-In the summer, we go to a week long summer camp and on one
-or more multi-day high-adventure trips. These outings will be
-some of the best times you will ever have.
-
-We [went on many fun outings in 2014](/outings/) and have many more planned for
-2015.
-
+We go on many great outings every year!  Day hikes and day outings, simple car
+camping at established camp sites, backpacking trips for beginners and trips
+for more advanced challenges, high-adventure week-long outings to challenge
+those who are ready to take them on, and opportunities to give back to our
+community by way of service projects every year.  For a list of the amazing
+outings we have done in recent years, check out this [great list](/outings/)!
