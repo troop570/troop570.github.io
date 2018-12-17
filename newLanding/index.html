@@ -1,0 +1,127 @@
+---
+layout: default
+description: Scout Troop 570 in Kirkland, WA keeps the "Outings in Scouting."
+slides:
+- image: /images/home/2017/BigHeartLake2017.jpg
+  title: Big Heart Lake
+- image: /images/home/2017/BigHeartLake2-2017.jpg
+  title: Backpacking at Big Heart Lake
+- image: /images/home/2017/Broomball2017.jpg
+  title: Broom Ball
+- image: /images/home/2017/DeschutesRafting2017.jpg
+  title: Deschutes River Rafting
+- image: /images/home/2017/Klondike2017.jpg
+  title: Klondike
+- image: /images/home/2017/NecklaceValley2017.jpg
+  title: Necklace Valley
+- image: /images/home/2017/SeabaseGroup2017.jpg
+  title: Sea Base Florida
+- image: /images/home/2017/SummerCamp2017.jpg
+  title: Native War Canoes at Summer Camp
+- image: /images/home/rainier.jpg
+  title: Backpacking in Mount Rainier National Park
+- image: /images/home/bowron.jpg
+  title: Canoeing in Bowron Lake Provincial Park, BC
+- image: /images/home/snowbp.jpg
+  title: Snowshoe Backpacking
+- image: /images/home/Wilderness-Trail.jpg
+  title: Wilderness Trail 50 miler
+- image: /images/home/2017/Enchantments2017.jpg
+  title: Enchantments
+- image: /images/home/tent-at-night.jpg
+  title: Keeping the outing in Scouting
+---
+<div class="topbox shrink-on-scroll">
+  <div id="slide-carousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      {% for slide in page.slides %}
+        <li data-target="#slide-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+      {% endfor %}
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      {% for slide in page.slides %}
+        <div class="item{% if forloop.first %} active{% endif %}">
+          <img src="{{ slide.image }}">
+          <div class="carousel-caption">
+            {{ slide.title }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#slide-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#slide-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="lead col-sm-offset-2 col-sm-8 text-center">
+      <p>
+        Scouting is camping, hiking, swimming, campfires and friendship.
+        Scouting is learning about our community, our country and our world.
+        But most of all, <em>scouting is fun</em>.
+      </p>
+      <p class="text-center">
+          <a class="btn btn-primary" href="/about/">Join Us</a>
+      </p>    
+    </div>
+    <div class="col-sm-6">
+      <h3 class="text-center">Boys Troop 570</h3>
+      <p>
+        Our boys troop offers the signature scouting programs that offer adventure, leadership skills,
+        challenge and fun that have molded world leaders or 100+ years.
+      </p>
+      <p class="text-center">
+        <a class="btn btn-primary" href="/about/">Learn more about Boys Troop 570</a>
+      </p>
+     </div>
+    <div class="col-sm-6">
+      <h3 class="text-center">Girls Troop 570</h3>
+      <p>
+        Girls have the option of participating in a full
+        scouting program with the same adventure, leadership skills,
+        challenges and fun in an all girl troop.
+      </p>
+      <p class="text-center">
+        <a class="btn btn-primary" href="/girls/">Learn more about Girls Troop 570</a>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="text-center">Member Services</h3>
+      <p>Go to TroopKit to view the troop calendar, sign-up for an event, request a
+          scoutmaster conference or to request a board of review.</p>
+      <p class="text-center"><a class="btn btn-default" href="http://troopkit.com/">TroopKit &raquo;</a></p>
+      <p>Go to TroopWebHost to view event photos, send mail to the troop, find merit badge counselors,
+          view patrol rosters and more.</p>
+      <p class="text-center"><a class="btn btn-default" href="http://www.troopwebhost.org/Troop570Kirkland/">TroopWebHost &raquo;</a></p>            
+    </div>
+    <div class="col-sm-4">
+      <h3>Christmas Trees</h3>
+      <p>Our 2019 Christmas Tree Pickup and Recyling Event will be on January 5th and 6th, Saturday and Sunday from 8:00am to 4:00pm. Please put your trees on your curbside before 1pm on Sunday</p>
+      {% comment %}
+      <p>Our 2018 Christmas Tree Pickup and Recycling Service Project is over. We hope to see you next January. </p>
+      {% endcomment %}
+      <p><a class="btn btn-primary" href="/trees/">Learn More &raquo;</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Webelos</h3>
+      <p>Webelos are invited to join us on a camping trip at Camp Pigott on November 10-11, 2018.
+      <p><a class="btn btn-primary" href="/webelos/">Outing Details &raquo;</a></p>
+    </div>
+    <h2 class="col-sm-offset-2 col-sm-8 lead text-center">BSA Troop 570 is located in Kirkland, Washington
+        and serves scouts in Kirkland, Kenmore, Bothell and the surrounding
+        area.
+    </h2>
+  
+  </div>
+</div>

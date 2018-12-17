@@ -6,7 +6,7 @@ image-alt: shooting
 ---
 #### Who can join
 
-* A scout must meet [Scouting USA's - formerly the Boy Scouts of America](http://www.scouting.org){:target="_blank"} age requirement: A scout must be 11
+* A scout must meet [Scouting BSA's](http://www.scouting.org){:target="_blank"} age requirement: A scout must be 11
 years old, or one who has completed the fifth grade or earned the Arrow of
 Light Award and is at least 10 years old, but is not yet 18 years old.
 
