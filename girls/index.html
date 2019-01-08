@@ -2,7 +2,62 @@
 layout: page
 title: Scouts BSA Girl Troop
 description: BSA Girl Troop 570 in Kirkland, WA serving girls age 11 to 17 in Kirkland, Bothell and the surrounding areas.
+slides:
+- image: /images/girls/slides/20181118_134531.jpg
+  title: 
+- image: /images/girls/slides/IMG_9892.jpg
+  title: 
+- image: /images/girls/slides/IMG_9895.jpg
+  title:
+- image: /images/girls/slides/IMG_9902.jpg
+  title:
+- image: /images/girls/slides/IMG_9955.jpg
+  title:
+- image: /images/girls/slides/Adventure-Slide.jpg
+  title:
+- image: /images/girls/slides/IMG_9956.jpg
+  title:
+- image: /images/girls/slides/IMG_9984.jpg
+  title:
+- image: /images/girls/slides/IMG_9985.jpg
+  title:
 ---
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h1 class="lead text-center">BSA Girl Troop 570 is located in Kirkland, Washington
+      and serves girls age 11 to 17 in Kirkland, Kenmore, Bothell and the surrounding
+      area.
+    </h1>  
+  </div>  
+</div>
+<div id="slide-carousel" class="carousel slide" data-ride="carousel" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    {% for slide in page.slides %}
+    <li data-target="#slide-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+    {% endfor %}
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    {% for slide in page.slides %}
+    <div class="item{% if forloop.first %} active{% endif %}">
+      <img src="{{ slide.image }}">
+      <div class="carousel-caption">
+        {{ slide.title }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#slide-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#slide-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 <div class="jumbotron">
   <div class="container">
@@ -14,7 +69,7 @@ description: BSA Girl Troop 570 in Kirkland, WA serving girls age 11 to 17 in Ki
   </div>
 </div>
 
-<h3 class="text-center">Our Troop</h3>
+<h3 class="text-center">Troop 570 for Girls</h3>
 <p>Girl Troop 570 begins on February 1st, 2019, and is chartered by the <a href="http://www.hslckirkland.org/">Holy Spirit Lutheran Church.</a> in Kirkland, WA. The church also charters a Boy Troop,
 established in 1969, a Cub Scout Pack and a Venturing Crew.</p>
 
