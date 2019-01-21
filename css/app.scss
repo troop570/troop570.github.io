@@ -53,6 +53,7 @@ $anchorHoverColor: hsl(134, 28%, 22%);
 
 a {
   color: $anchorColor;
+  font-weight: 700;
 }
 a:hover {
   color: $anchorHoverColor;

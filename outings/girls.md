@@ -7,17 +7,16 @@ description: A list of planned Girl Troop outings
 ### Planned 2019 outings ###
 
 - Christmas Tree Service Project - Collect Christmas trees for recycling.
-- Klondike Camp - Fun competition at a district event, two nights of winter camping.
+- Klondike Camp - Fun competition at a district event
 - Spring Camp
 - Scouting For Food
-- Pre-Camporee
+- Pre-Camporee Camp - Practice skills for upcoming Camporee
 - Aviation Merit Badge Day
 - District Camporee
 - Backpacking
 - Horseback Riding
 - Summer Camp
 - Visit to Water Park
-- Pre-Camporee Camp - Practice skills for upcoming Camporee, two nights camping.
 - City Hike to Aquarium
 - Zoo Day COPE Course
 - Shooting Sports
