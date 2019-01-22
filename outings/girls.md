@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Girl Troop 570 Plans
-description: A list of planned Girl Troop outings
+title: Girl Troop Plans
+description: A list of planned Girl Troop 570 outings
 ---
 
 ### Planned 2019 outings ###
@@ -37,3 +37,5 @@ description: A list of planned Girl Troop outings
 - First Aid
 - Leatherwork
 - Science
+
+Here's a listing of the [Boy Troop outings](/outings)

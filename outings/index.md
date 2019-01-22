@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Troop 570 Outings
+title: Boy Troop Outings
 description: A list of recent Troop 570 outinghs
 ---
 
@@ -41,3 +41,5 @@ A list of outings from a recent year:
 - Eagle Service Project - Build a boardwalk along a trail.
 - Glassblowing - Create an ornament at local glassblowing studio.
 - Eagle Service Project - Build a shed at a local pool.
+
+Here's a listing of the [Girl Troop outings](/outings/girls)
