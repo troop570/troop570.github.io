@@ -88,7 +88,7 @@ categories:
 ---
 
 {% for category in page.categories %}
-  <p>{{category.name}}
+  <h3>{{category.name}}</h3>
   <ul>
     {% for resource in category.files %}
       {% if resource.url %}
@@ -96,8 +96,9 @@ categories:
         {% if resource.url contains "http://troopkit.com/" %} (login to TroopKit required){% endif %}
         {% if resource.url contains "https://scoutbook.com/" %} (login to ScoutBook required){% endif %}
         {% if resource.url contains "https://discussions.scouting.org/" %} (login to ScoutBook required){% endif %}
+        </li>
       {% else %}
-        <li>{{resource.name}}
+        <li>{{resource.name}}</li>
       {% endif %}
     {% endfor %}
   </ul>
