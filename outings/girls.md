@@ -3,39 +3,47 @@ layout: page
 title: Girl Troop Plans
 description: A list of planned Girl Troop 570 outings
 ---
+Scouting BSA [observes CDC recommended guidelines during the Covid-19 pandemic](https://www.scouting.org/coronavirus/covid-19-faq/) for social distancing, masks and general health and infection safety practices during this pandemic.
 
-### Planned 2019 outings ###
-
+### Planned 2021 in-person outings ###
 - Christmas Tree Service Project - Collect Christmas trees for recycling.
-- Klondike Camp - Fun competition at a district event
-- Spring Camp
-- Scouting For Food
-- Pre-Camporee Camp - Practice skills for upcoming Camporee
-- Aviation Merit Badge Day
-- District Camporee
-- Backpacking
+- Park Conservation Service Project
+- Snowshoe Hike
+- Council Shooting Sports Day
+- Day Hike
 - Horseback Riding
+- Backpacking
 - Summer Camp
-- Visit to Water Park
-- City Hike to Aquarium
-- Zoo Day COPE Course
-- Shooting Sports
-- Webelos Outreach Campout
-- Merit Badge Weekend
-- Escape Room
+- Arbor Day Service Project
+- Scouting for Food
+- Ziplining & COPE Course
+- Skiing
 
-### 2019 Program Features ###
+### Planned 2021 virtual outings ###
+- Virtual Lock-in
+- Virtual Campout
+- Virtual Cookout
+- (Virtual) Craft Night
+- (Virtual) Game Night
+- (Virtual) District Camporee
+- (Virtual) Crime Prevention & Safety merit badge workshop
+- (Virtual) Emergency Preparedness merit badge workshop
+- (Virtual) Horsemanship merit badge workshop
+- (Virtual) Scouts Sunday Service
 
-- Art, Animation and Graphic Arts
-- Public Speaking
-- Cooking
-- Nature/Backpacking
+### 2021 Program Features ###
+
+- Music and PopCulture
+- Sustainability
+- Archery
+- Plants and Animals
 - Horsemanship
-- Astronomy and Navigation
+- Hiking
 - Swimming
-- Knots
-- First Aid
-- Leatherwork
+- Camping and Backpacking
+- Fitness/Sports
 - Science
+- Financial Management
+- International Food/Culture
 
 Here's a listing of the [Boy Troop outings](/outings)
